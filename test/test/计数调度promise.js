@@ -6,12 +6,12 @@
   "https://www.kkkk1000.com/images/getImgData/arithmetic2.gif",
   "https://www.kkkk1000.com/images/getImgData/getImgDataError.jpg",
   "https://www.kkkk1000.com/images/getImgData/arithmetic.gif",
-  "https://www.kkkk1000.com/images/wxQrCode2.png"
+  "https://www.kkkk1000.com/images/wxQrCode2.png",
 ];
 function loadImg(url) {
   return new Promise((resolve, reject) => {
     const img = new Image();
-    img.onload = function() {
+    img.onload = function () {
       console.log("一张图片加载完成");
       resolve();
     };
